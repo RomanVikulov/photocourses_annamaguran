@@ -1,0 +1,37 @@
+<header class="header" id="header">
+  <div class="header__container container">
+    <a class="link logo" href="/src/index.html" aria-label="logo company">
+      <div class="logo">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="./images/logo/logo.webp 1x"
+            type="image/webp"
+          />
+          <img
+            class="logo-img"
+            srcset="./images/logo/logo.png 50w, ./images/logo/logo@2x.png 100w"
+            src="/src/images/logo/logo.png"
+            sizes="(min-width:1200px) 50px, 100vw"
+            alt="Logo"
+            width="150"
+            height="150"
+            loading="lazy"
+          />
+        </picture>
+        <nav class="navigation">
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a class="navigation__link link" href="#about" aria-label="Обо мне">Обо мне
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link link" href="#contacts" aria-label="Контакты">Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </a>
+  </div>
+</header>
