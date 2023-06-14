@@ -22,13 +22,13 @@
   color: var(--cl-txt-accent-light);
 
   @include mq(tablet) {
-      font-size: 26px;
-      line-height: 1.15;
+    font-size: 26px;
+    line-height: 1.15;
   }
 
   @include mq(desktop) {
-      font-size: 30px;
-      line-height: 1.13;
+    font-size: 30px;
+    line-height: 1.13;
   }
 }
 
@@ -42,14 +42,14 @@
   color: var(--cl-txt-accent-dark);
 
   @include mq(tablet) {
-      font-size: 48px;
-      line-height: 1.146;
-      letter-spacing: 0.06em;
+    font-size: 48px;
+    line-height: 1.146;
+    letter-spacing: 0.06em;
   }
 
   @include mq(desktop) {
-      font-size: 58px;
-      line-height: 1.138;
+    font-size: 58px;
+    line-height: 1.138;
   }
 }
 
@@ -62,11 +62,11 @@
   line-height: 1.62;
 
   @include mq(tablet) {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   @include mq(desktop) {
-      font-size: 16px;
+    font-size: 16px;
   }
 }
 
@@ -76,16 +76,16 @@
 
   font-weight: 700;
   font-size: 12px;
-  line-height: 1.70;
+  line-height: 1.7;
 
   @include mq(tablet) {
-      font-size: 14px;
-      line-height: 1.174;
+    font-size: 14px;
+    line-height: 1.174;
   }
 
   @include mq(desktop) {
-      font-size: 16px;
-      line-height: 1.76;
-      letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.76;
+    letter-spacing: 0.02em;
   }
 }
