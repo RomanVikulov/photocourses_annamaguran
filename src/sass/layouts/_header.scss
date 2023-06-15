@@ -1,0 +1,21 @@
+.header {
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+  &.js-no-transparency {
+    background-color: rgba(189, 68, 99, 0.75);
+
+    & .mobile-btn {
+      top: 20px;
+
+      @include mq(tablet) {
+        top: 40px;
+      }
+    }
+  }
+}
