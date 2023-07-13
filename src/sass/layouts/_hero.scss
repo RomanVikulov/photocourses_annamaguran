@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  max-width: 1600px;
+  height: 550px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-color: var(--back-color);
+  text-align: center;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/src/images/hero/title.png);
+}
+
+.hero__title {
+  color: var(--cl-txt-white);
+}
+
+.hero__title-text {
+  font-size: 25px;
+  line-height: 1.18;
+}
