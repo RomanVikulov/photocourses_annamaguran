@@ -3,8 +3,6 @@
 
   margin: 0 auto;
   padding: 60px 0;
-
-  overflow-x: hidden;
 }
 
 // section title group
@@ -37,20 +35,20 @@
 // <h2>
 .section-title {
   font-family: var(--font-family-title);
-  font-size: 13px;
+  font-size: 34px;
   line-height: 1.147;
   text-transform: uppercase;
 
   color: var(--cl-txt-accent-dark);
 
   @include mq(tablet) {
-    font-size: 15px;
+    font-size: 48px;
     line-height: 1.146;
     letter-spacing: 0.06em;
   }
 
   @include mq(desktop) {
-    font-size: 20px;
+    font-size: 58px;
     line-height: 1.138;
   }
 }
