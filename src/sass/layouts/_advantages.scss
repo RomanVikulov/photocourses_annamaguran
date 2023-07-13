@@ -1,0 +1,18 @@
+.advantages__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  width: 800px;
+  &:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+
+.start-time {
+  width: 300px;
+  height: 220px;
+  background-color: var(--bgc-second);
+}
