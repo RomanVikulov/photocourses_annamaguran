@@ -6,14 +6,15 @@
   background-image: linear-gradient(to right, #ffffffd9 10%, #c9226900 100%),
     url(/src/images/picture/picture4.png);
 }
-.syllabus__title {
+.program__title {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.syllabus__list--text {
+.program__list--text {
   background-color: #2aa5a0;
-  background-image: linear-gradient(90deg, #c92269, #f0f8ff);
+  background-image: linear-gradient(90deg, #c92269, #000);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
