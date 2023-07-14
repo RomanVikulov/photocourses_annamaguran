@@ -5,14 +5,40 @@
 }
 
 .advantages__item {
-  width: 800px;
+  width: 750px;
   &:not(:last-child) {
     margin-bottom: 35px;
   }
 }
 
+.advantages__item__text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
 .start-time {
-  width: 300px;
-  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 270px;
   background-color: var(--bgc-second);
+
+  &.__schedule {
+    display: flex;
+  }
+}
+
+.start-time__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  height: 180px;
+  width: 330px;
+  background-color: aliceblue;
+  border-radius: 5%;
 }
