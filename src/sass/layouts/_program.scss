@@ -1,0 +1,19 @@
+.program {
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to right, #ffffffd9 10%, #c9226900 100%),
+    url(/src/images/picture/picture4.png);
+}
+.syllabus__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.syllabus__list--text {
+  background-color: #2aa5a0;
+  background-image: linear-gradient(90deg, #c92269, #f0f8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
