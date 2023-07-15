@@ -1,0 +1,24 @@
+.container.result__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px auto;
+}
+
+.result__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: calc((100% - 6 * 25px) / 3);
+  margin: 25px;
+}
+
+.result__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container__text {
+  font-size: 27px;
+  font-weight: 800;
+}
