@@ -1,11 +1,18 @@
 .about {
   padding: 15px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .label-title {
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 10px;
+}
+
+.about-container {
+  display: flex;
+  &__text {
+    width: 700px;
+  }
 }
