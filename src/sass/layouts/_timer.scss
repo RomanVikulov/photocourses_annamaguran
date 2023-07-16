@@ -1,7 +1,12 @@
 .timer__items {
-  display: flex;
+  width: initial;
+  border: 1px solid var(--bgc-second);
   font-size: 48px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
 }
+
 .timer__item {
   position: relative;
   min-width: 60px;
