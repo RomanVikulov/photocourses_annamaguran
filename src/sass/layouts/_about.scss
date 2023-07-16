@@ -12,7 +12,12 @@
 
 .about-container {
   display: flex;
+  align-items: center;
   &__text {
     width: 700px;
   }
+}
+
+.about-container__p {
+  padding-top: 50px;
 }
