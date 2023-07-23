@@ -1,5 +1,12 @@
-.about {
-  padding: 15px 0;
+.about-container {
+  display: flex;
+  align-items: center;
+  &__text {
+    width: 700px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--cl-txt-main-pink);
+  }
 }
 
 .label-title {
@@ -8,16 +15,4 @@
   align-items: center;
 
   padding-bottom: 10px;
-}
-
-.about-container {
-  display: flex;
-  align-items: center;
-  &__text {
-    width: 700px;
-  }
-}
-
-.about-container__p {
-  padding-top: 50px;
 }
