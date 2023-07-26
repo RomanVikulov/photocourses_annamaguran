@@ -39,8 +39,6 @@
   line-height: 1.147;
   text-transform: uppercase;
 
-  color: var(--cl-txt-accent-dark);
-
   @include mq(tablet) {
     font-size: 48px;
     line-height: 1.146;
