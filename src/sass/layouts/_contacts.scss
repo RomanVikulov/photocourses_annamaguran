@@ -3,3 +3,31 @@
 .contacts.link__url {
   text-decoration: none;
 }
+
+.section-title__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts.list {
+  width: calc((100% - 3 * 35px) / 2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contacts.list__title {
+  padding-bottom: 20px;
+}
+
+.contacts.list__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts.list__list:not(:first-child) {
+  padding-left: 30px;
+}
