@@ -19,22 +19,20 @@
 
 .advantages__item {
   width: 750px;
-  &:not(:last-child) {
-    margin-bottom: 35px;
-  }
 }
 
 .advantages__item__text {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 400;
+  padding-bottom: 15px;
 }
 
 .start-time {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 380px;
-  height: 270px;
+  width: 260px;
+  height: 170px;
   background-color: var(--bgc-btn);
 
   &.__schedule {
@@ -50,8 +48,9 @@
   text-align: center;
   flex-wrap: wrap;
   padding: 15px;
-  height: 180px;
-  width: 330px;
-  background-color: aliceblue;
+  height: 130px;
+  width: 230px;
+  background-color: var(--bgc-main);
   border-radius: 5%;
+  font-size: 67%;
 }
