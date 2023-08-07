@@ -1,28 +1,34 @@
 .header {
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   display: flex;
   top: 0;
   left: 0;
 
   &__title {
+    display: flex;
     text-align: center;
     line-height: 1;
-    font-size: 17px;
+    font-size: 6px;
     color: var(--cl-txt-main-pink);
+
+    @include mq(mobile) {
+      padding-top: 10px;
+    }
   }
 }
 
 .header__container {
-  text-align: left;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
   margin: 0;
   padding-top: 10px;
   padding-bottom: 15px;
   display: flex;
+  flex-direction: column;
   position: relative;
+  text-align: left;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 // ========== navigation ==========
