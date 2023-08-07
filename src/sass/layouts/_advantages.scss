@@ -3,9 +3,18 @@
 }
 
 .advantages__container {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.advantages__list {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .advantages__item {
