@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   &__text {
-    width: 700px;
+    font-size: 14px;
+    font-weight: 800;
+    width: 100vw;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--cl-txt-main-pink);
