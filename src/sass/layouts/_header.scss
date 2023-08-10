@@ -1,25 +1,28 @@
 .header {
-  width: 100%;
-  justify-content: center;
-  display: flex;
   top: 0;
-  left: 0;
+  width: 100%;
 
   &__title {
     display: flex;
     text-align: center;
     line-height: 1;
     font-size: 8px;
+    padding-top: 10px;
     color: var(--cl-txt-main-pink);
 
-    @include mq(mobile) {
-      padding-top: 10px;
+    @include mq(tablet) {
+      font-size: 14px;
+    }
+
+    @include mq(desktop) {
+      padding-left: 100px;
+      padding-top: 0;
     }
   }
 }
 
 .header__container {
-  margin: 0;
+  margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 15px;
   display: flex;
@@ -29,6 +32,25 @@
   align-content: center;
   justify-content: space-between;
   align-items: center;
+
+  @include mq(desktop) {
+    flex-direction: row;
+  }
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+
+  @include mq(tablet) {
+    width: 75px;
+    height: 75px;
+  }
+
+  @include mq(desktop) {
+    width: 85px;
+    height: 85px;
+  }
 }
 
 // ========== navigation ==========
