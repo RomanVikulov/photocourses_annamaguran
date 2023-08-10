@@ -5,20 +5,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @include mq(desktop) {
+    width: 750px;
+  }
 }
 
 .result__list {
   flex-direction: row;
 
-  width: calc((100% - 6 * 15px) / 2);
+  width: calc((100% - 4 * 15px) / 2);
   margin: 15px;
   line-height: 1.1;
 
-  // @media screen and(max-width:1200px) {
-  //   width: calc((100% - 4 * 35px) / 2);
-  //   margin: 30px;
-  //   line-height: 1.1;
-  // }
+  @include mq(desktop) {
+    width: calc((100% - 4 * 20px) / 2);
+    margin: 20px;
+    line-height: 1.1;
+  }
 }
 
 .result__title {
@@ -32,6 +36,14 @@
   height: 30px;
 }
 
-.reult__text {
+.result__text {
   font-size: 11px;
+
+  @include mq(tablet) {
+    font-size: 13px;
+  }
+
+  @include mq(desktop) {
+    font-size: 14px;
+  }
 }
