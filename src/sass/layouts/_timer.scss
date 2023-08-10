@@ -15,6 +15,9 @@
   justify-content: center;
   border-radius: 120px 120px / 235px;
   background-image: linear-gradient(180deg, var(--bgc-second), var(--bgc-btn));
+  @include mq(tablet) {
+    width: initial;
+  }
 }
 
 .timer__item {
