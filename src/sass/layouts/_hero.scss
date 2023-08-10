@@ -84,4 +84,14 @@
     font-size: 25px;
     font-weight: 400;
   }
+
+  @include mq(tablet) {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  @include mq(desktop) {
+    font-size: 30px;
+    font-weight: 600;
+  }
 }
