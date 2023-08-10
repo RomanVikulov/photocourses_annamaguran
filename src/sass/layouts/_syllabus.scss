@@ -1,13 +1,16 @@
 .syllabus {
   padding-bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
 }
 .syllabus__container {
   display: flex;
   flex-direction: column;
   font-size: 10px;
-  @media screen and(min-width:768px) {
-    display: flex;
-    flex-direction: column;
+
+  @include mq(desktop) {
+    width: min-content;
   }
 }
 
@@ -18,12 +21,22 @@
   justify-content: space-between;
   padding-bottom: 15px;
   font-size: 8.5px;
-  @media screen and(min-width:768px) {
+
+  @include mq(tablet) {
+    font-size: 13px;
+  }
+
+  @include mq(desktop) {
     display: flex;
     flex-direction: row;
   }
 }
-
 .syllabus__img {
   padding-bottom: 5px;
+}
+
+.syllabus__text {
+  width: 100%;
+  padding-left: 15px;
+  display: flex;
 }
