@@ -10,6 +10,15 @@
   align-items: center;
 }
 
+.contacts.list {
+  @include mq(desktop) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 700px;
+  }
+}
+
 .contacts.list__list:not(:last-child) {
   padding-bottom: 10px;
 }
@@ -24,7 +33,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-// .contacts.list__list:not(:first-child) {
-//   padding-left: 30px;
-// }
