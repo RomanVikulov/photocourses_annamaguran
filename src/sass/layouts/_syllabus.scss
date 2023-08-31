@@ -1,5 +1,5 @@
 .syllabus {
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 
   display: flex;
   flex-direction: column;
@@ -39,4 +39,10 @@
   width: 100%;
   padding-left: 15px;
   display: flex;
+  &--point {
+    margin: 0;
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
+      margin: auto;
+    }
+  }
 }
