@@ -1,4 +1,5 @@
 import axios from 'axios';
+require('dotenv').config();
 
 const { TOKEN, CHAT_ID } = process.env;
 
