@@ -1,7 +1,7 @@
 import axios from 'axios';
-require('dotenv').config();
 
 const { TOKEN, CHAT_ID } = process.env;
+require('dotenv').config();
 
 const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 const success = document.getElementById('success');
