@@ -1,10 +1,11 @@
 import axios from 'axios';
+import { os } from 'os';
+
 require('dotenv').config();
 
-const { TOKEN_BOT } = process.env.TOKEN;
-
-const CHAT_ID = `-1001933429777`;
-const URL_API = `https://api.telegram.org/bot${TOKEN_BOT}/sendMessage`;
+const TOKEN = TOKEN(os.dotenv('TOKEN'));
+const CHAT_ID = '-1001933429777';
+const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 const success = document.getElementById('success');
 
 document.getElementById('tg').addEventListener('submit', function (e) {
