@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const { TOKEN } = process.env.TOKEN;
 
-const CHAT_ID = '-1001933429777';
+const CHAT_ID = `-1001933429777`;
 const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 const success = document.getElementById('success');
 
