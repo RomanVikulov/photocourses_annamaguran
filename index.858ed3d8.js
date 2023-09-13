@@ -1,0 +1,3 @@
+document.addEventListener("DOMContentLoaded",function(){let e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]"),openModalBtn2:document.querySelector("[data-modal-open2]"),closeModalBtn2:document.querySelector("[data-modal-close2]"),modal2:document.querySelector("[data-modal2]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.openModalBtn2.addEventListener("click",o),e.closeModalBtn2.addEventListener("click",o)});//# sourceMappingURL=index.858ed3d8.js.map
+
+//# sourceMappingURL=index.858ed3d8.js.map
