@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://RomanVikulov.github.io/photocourses_annamaguran",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /photocourses_annamaguran/"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /photocourses_annamaguran/"
   },
   "repository": {
     "type": "git",
