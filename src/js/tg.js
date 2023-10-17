@@ -1,8 +1,8 @@
+require('dotenv').config();
 const TOKEN = process.env.TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
 const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 const success = document.getElementById('success');
-require('dotenv').config();
 
 document.getElementById('tg').addEventListener('submit', function (e) {
   e.preventDefault();
