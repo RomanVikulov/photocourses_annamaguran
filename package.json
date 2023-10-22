@@ -8,7 +8,7 @@
     "build": "parcel build src/*.html --public-url /photocourses_annamaguran/"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
